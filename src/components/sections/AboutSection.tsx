@@ -21,10 +21,11 @@ export function AboutSection() {
           graduate from India, currently pursuing a transition to Computer
           Science and Engineering research. With a background in{" "}
           <strong>
-            C++ DSA, MERN stack, WebGIS, Embedded Systems, and AI/ML
+            Full Stack Development, Data Structures and Algorithms, WebGIS,
+            Embedded Systems, and AI/ML
           </strong>
-          , I’m passionate about building performant, real-world web and
-          drone-based applications.
+          , I’m passionate about building performant, real-world web
+          applications and drone-based applications.
         </p>
 
         <p className="text-gray-300 text-lg sm:text-xl leading-relaxed mt-6">
@@ -37,8 +38,8 @@ export function AboutSection() {
 
         <p className="text-gray-400 text-md mt-10 italic">
           Technologies I work with: Next.js, React, Tailwind CSS, Node.js,
-          Express, MongoDB, Leaflet.js, C++, ROS, Pixhawk, MAVLink, PX4,
-          Arduino, Python
+          Express, MongoDB, PostgreSQL, TypeScript, Java, Leaflet.js, C++, ROS,
+          Pixhawk, MAVLink, PX4, Arduino, Python, AWS
         </p>
       </motion.div>
     </section>

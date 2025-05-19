@@ -6,24 +6,25 @@ import { FaGraduationCap } from "react-icons/fa";
 const education = [
   {
     degree: "Master of Technology (M. Tech) in Geoinformatics",
-    institution: "Indian Institute of Technology Kanpur (IIT Kanpur)",
+    institution: "Indian Institute of Technology, Kanpur (IIT Kanpur)",
     duration: "2023 – 2025",
-    location: "Kanpur, Uttar Pradesh, India",
+    location: "",
     details: [
-      "Graduated with strong foundations in engineering principles.",
-      "Developed programming skills in C++ and Data Structures & Algorithms.",
-      "Involved in multiple academic projects related to software development and data analysis.",
+      // "Graduated with strong foundations in engineering principles.",
+      // "Developed programming skills in C++ and Data Structures & Algorithms.",
+      // "Involved in multiple academic projects related to software development and data analysis.",
     ],
   },
   {
     degree: "Bachelor of Technology (B.Tech) in Civil Engineering",
-    institution: "Ramkrishna Mahato Government Engineering College (RKMGEC)",
+    institution:
+      "Ramkrishna Mahato Government Engineering College, Purulia (RKMGEC)",
     duration: "2018 – 2022",
-    location: "Purulia, West Bengal, India",
+    location: "",
     details: [
-      "Graduated with strong foundations in engineering principles.",
-      "Developed programming skills in C++ and Data Structures & Algorithms.",
-      "Involved in multiple academic projects related to software development and data analysis.",
+      // "Graduated with strong foundations in engineering principles.",
+      // "Developed programming skills in C++ and Data Structures & Algorithms.",
+      // "Involved in multiple academic projects related to software development and data analysis.",
     ],
   },
 ];

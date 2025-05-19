@@ -5,28 +5,33 @@ import { FaBriefcase } from "react-icons/fa";
 
 const experiences = [
   {
-    company: "Cognizant Technology Solutions",
-    role: "Programmer Analyst Trainee (Intern)",
-    duration: "Jan 2022 – May 2022",
+    company: "",
+    role: "WebGIS Developer Intern @TerrAqua UAV Solutions Pvt. Ltd.",
+    duration: "May 2025 – Present",
+    location:
+      "Diamond Jubilee, Academic Complex, Block 401, Cabin No. 20/21, IIT Kanpur, Kanpur, 208016, India",
+    description: [
+      "Built and deployed interactive WebGIS apps using Leaflet, OpenLayers, and ArcGIS JS API to visualize and analyze high-resolution drone imagery, LiDAR point clouds, and shapefiles.",
+      "Built and integrated RESTful APIs using Python (Django) to deliver real-time geospatial functionalities and custom geoprocessing services, including spatial queries and overlays.",
+      "Utilized PostGIS for efficient spatial database management and optimized performance of large-scale geospatial datasets across web-based mapping interfaces.",
+      "Created interactive, mobile-friendly UI components using React.js, Next.js, and Tailwind CSS, improving usability and data interpretation for clients and internal stakeholders.",
+      "Contributed to a web tool that improved infrastructure inspection workflows, collaborating with drone operators and GIS analysts to deliver tailored, high-impact geospatial solutions.",
+    ],
+    tech: [
+      "Leaflet.js, JavaScript, Node.js, MongoDB, PostgreSQL, AWS, Django, Flask, HTML 5, CSS, OpenStreetMap, Google Earth Engine, Tailwind CSS, GeoJSON, Python",
+    ],
+  },
+  {
+    company: "",
+    role: "Programmer Analyst Trainee (Intern) @Cognizant Technology Solutions",
+    duration: "Feb 2022 – July 2022",
     location: "Remote (India)",
     description: [
       "Worked in the domain of Quality Engineering and Assurance.",
       "Trained and implemented automation testing using Java and Selenium.",
       "Contributed to testing pipelines and code quality improvements.",
     ],
-    tech: ["Java", "Selenium", "TestNG", "Automation Testing"],
-  },
-  {
-    company: "TerrAqua UAV Solutions Pvt. Ltd.",
-    role: "WebGIS Developer Intern",
-    duration: "Apr 2025 – Present",
-    location: "Remote",
-    description: [
-      "Built interactive WebGIS dashboards to visualize Indian state boundaries.",
-      "Implemented advanced map features using Leaflet.js and Tailwind CSS.",
-      "Designed a search-based responsive map UI for real-time analytics.",
-    ],
-    tech: ["Leaflet.js", "JavaScript", "Tailwind CSS", "GeoJSON"],
+    tech: ["Java, Selenium, TestNG, Automation Testing, HTML, CSS, JavaScript"],
   },
 ];
 
@@ -72,15 +77,18 @@ const ExperienceSection = () => {
                   <li key={idx}>{item}</li>
                 ))}
               </ul>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {exp.tech.map((tech, idx) => (
-                  <span
-                    key={idx}
-                    className="bg-blue-700 text-white text-xs font-semibold px-2 py-1 rounded-md"
-                  >
-                    {tech}
-                  </span>
-                ))}
+              <div className="mt-4">
+                <p className="font-semibold text-white mb-2">Tech Stack:</p>
+                <div className="flex flex-wrap gap-2">
+                  {exp.tech.map((tech, idx) => (
+                    <span
+                      key={idx}
+                      className="bg-blue-700 text-white text-xs font-semibold px-2 py-1 rounded-md"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
             </motion.div>
           ))}

@@ -10,21 +10,27 @@ const projects = [
     description:
       "A full-stack tourism web service showcasing destinations across UP using Leaflet.js, styled with Tailwind CSS, and supporting live statistics, responsive UI, and region-based search.",
     tech: ["Leaflet.js", "Tailwind CSS", "JavaScript"],
-    github: "https://github.com/MrigankaSB/UP-Tourism-WebGIS",
+    github: "https://github.com/MrigankaSB/UP_Tourism",
   },
   {
-    title: "Portfolio Website",
+    title: "Indian States WebGIS",
     description:
-      "A modern, mobile-friendly portfolio built with Next.js 15, Tailwind CSS, Framer Motion, and ShadCN UI. Includes sections like About, Projects, Contact, and more.",
-    tech: ["Next.js 15", "Tailwind CSS", "Framer Motion", "TypeScript"],
-    github: "https://github.com/MrigankaSB",
+      "An interactive WebGIS dashboard built using Leaflet.js that visualizes Indian states on a responsive map. This project was developed as part of the Technical Assignment for the WebGIS Developer Internship at TerrAqua UAV Solutions Pvt Ltd.",
+    tech: [
+      "JavaScript",
+      "Tailwind CSS",
+      "Leaflet.js",
+      "OpenStreetMap",
+      "India States GeoJSON",
+    ],
+    github: "https://github.com/MrigankaSB/indian-states-webgis",
   },
   {
     title: "UAV Altitude Estimator (C++)",
     description:
       "A C++ simulation of altitude estimation using noisy barometer and sonar readings with fault detection logic — built as part of an Embedded Systems selection round.",
     tech: ["C++", "Embedded Systems", "Simulation"],
-    github: "https://github.com/MrigankaSB/UAV-Altitude-Estimator",
+    github: "https://github.com/MrigankaSB/Agravity-Systems-Assignment",
   },
 ];
 

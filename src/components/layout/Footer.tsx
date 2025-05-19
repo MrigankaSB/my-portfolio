@@ -13,7 +13,7 @@ export function Footer() {
         </p>
 
         {/* Right */}
-        <div className="flex space-x-5 text-xl">
+        <div className="flex space-x-6 text-5xl">
           <Link
             href="https://github.com/MrigankaSB"
             target="_blank"
